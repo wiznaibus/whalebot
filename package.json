@@ -1,0 +1,27 @@
+{
+    "name": "whalebot",
+    "version": "0.0.1",
+    "description": "Discord bot",
+    "main": "index.ts",
+    "scripts": {
+        "test": "tsx ./index.ts"
+    },
+    "type": "module",
+    "author": "wiznaibus",
+    "license": "ISC",
+    "dependencies": {
+        "discord-api-types": "^0.37.70",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "eslint": "^8.56.0",
+        "eslint-config-standard-with-typescript": "^43.0.1",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "tsx": "^4.7.1",
+        "typescript": "^5.3.3"
+    }
+}
